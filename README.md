@@ -1,4 +1,4 @@
-# 🧠 Student Performance Predictor App
+# 🧠 Student-Performance-Analyzer
 
 An end-to-end MERN + Machine Learning project where teachers can manage student records and predict their performance (Pass/Fail) based on inputs like attendance, study hours, previous marks, etc.
 
