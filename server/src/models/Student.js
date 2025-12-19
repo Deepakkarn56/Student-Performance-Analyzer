@@ -24,8 +24,7 @@ const studentSchema = new mongoose.Schema({
     },
     attendance: Number,
     studyHours: Number,
-    previousMarks: Number,
-    assignmentScore: Number,
+ 
     predictions: [predictionSchema]
 });
 

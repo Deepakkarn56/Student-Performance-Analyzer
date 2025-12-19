@@ -5,8 +5,7 @@ import { addStudent, getStudentDetails, getStudents, updateStudentData } from '.
 const router = Router();
 router.post('/add', protect, addStudent);
 router.get('/', protect, getStudents);
-router.patch('/update/:studentId', protect, updateStudentData);
-router.get('/:studentId', protect, getStudentDetails);
+
 
 
 
